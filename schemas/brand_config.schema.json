@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video2BrandedPPTX brand configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "company_name": {"type": "string"},
+    "primary_color": {"type": "string", "pattern": "^#?[0-9A-Fa-f]{6}$"},
+    "accent_color": {"type": "string", "pattern": "^#?[0-9A-Fa-f]{6}$"},
+    "background_color": {"type": "string", "pattern": "^#?[0-9A-Fa-f]{6}$"},
+    "text_color": {"type": "string", "pattern": "^#?[0-9A-Fa-f]{6}$"},
+    "font_family": {"type": "string"},
+    "title_font_family": {"type": "string"},
+    "logo_position": {"enum": ["auto", "top-right", "top-left", "right-sidebar", "left-sidebar", "bottom-right", "bottom-left"]},
+    "logo_scale": {"type": "number", "minimum": 0.02, "maximum": 0.4},
+    "logo_margin_inches": {"type": "number", "minimum": 0, "maximum": 2},
+    "sidebar_width_inches": {"type": "number", "minimum": 0.35, "maximum": 3},
+    "logo_opacity": {"type": "number", "minimum": 0, "maximum": 1},
+    "footer_text": {"type": "string"},
+    "show_slide_numbers": {"type": "boolean"},
+    "exclude_title_slide": {"type": "boolean"},
+    "exclude_closing_slide": {"type": "boolean"}
+  }
+}
+

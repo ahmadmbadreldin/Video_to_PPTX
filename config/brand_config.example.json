@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/brand_config.schema.json",
+  "company_name": "Acme Corporation",
+  "primary_color": "17365D",
+  "accent_color": "2F75B5",
+  "background_color": "FFFFFF",
+  "text_color": "1F2937",
+  "font_family": "Aptos",
+  "title_font_family": "Aptos Display",
+  "logo_position": "right-sidebar",
+  "logo_scale": 0.11,
+  "logo_margin_inches": 0.25,
+  "sidebar_width_inches": 0.75,
+  "logo_opacity": 1.0,
+  "footer_text": "Confidential",
+  "show_slide_numbers": true,
+  "exclude_title_slide": false,
+  "exclude_closing_slide": false
+}
+

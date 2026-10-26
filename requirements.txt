@@ -1,0 +1,12 @@
+# Runtime and Streamlit UI dependencies for Python 3.11+
+numpy>=1.26
+opencv-python-headless>=4.9
+Pillow>=10.2
+python-pptx>=0.6.23
+PyYAML>=6.0
+streamlit>=1.32
+pytesseract>=0.3.10
+
+# Optional features are intentionally not installed here:
+#   SVG logos: pip install "cairosvg>=2.7" (also requires native Cairo)
+#   Windows PowerPoint animations: pip install "pywin32>=306"

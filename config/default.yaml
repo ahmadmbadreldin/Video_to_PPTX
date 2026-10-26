@@ -1,0 +1,35 @@
+sampling:
+  interval_seconds: 0.5
+  scene_threshold: 0.22
+  animation_threshold: 0.035
+  stable_seconds: 0.7
+  black_threshold: 12
+  crop: null
+ocr:
+  enabled: true
+  languages: [eng]
+  min_confidence: 55
+output:
+  reference: true
+  branded: true
+  hybrid: true
+  model: true
+  report: true
+  previews: true
+branding:
+  position: auto
+  scale: 0.11
+  margin: 0.25
+  sidebar_width: 0.75
+  opacity: 1.0
+  exclude_title: false
+  exclude_closing: false
+  slide_numbers: true
+  footer_text: ""
+redesign:
+  theme: corporate
+  intensity: moderate
+animations:
+  preserve_stages: true
+  sequential_build_slides: false
+
